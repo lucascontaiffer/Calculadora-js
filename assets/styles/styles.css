@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    width: 275px;
+    height: 400px;
+    background-color: gray;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.display{
+    background-color: black;
+    width: 230px;
+    height: 50px;
+    margin: 15px 10px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+.calculator-btns{
+    margin: 0 10px 0 10px;
+}
+.btn-styles{
+    margin: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+.btn-calc-styles{
+    margin: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn-equals-styles{
+    margin: 5px;
+    cursor: pointer;
+    width: 115px;
+    height: 50px;
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn-styles:hover{
+    border: 2px solid black;
+    background-color: greenyellow;
+    color: black;
+}
+.btn-calc-styles:hover{
+    border: 2px solid greenyellow;
+    background-color: black;
+    color: white;
+}
+.btn-equals-styles:hover{
+    border: 2px solid greenyellow;
+    background-color: black;
+    color: white;
+}
+@media (min-width: 1440px){
+    .calculator{
+        width: 340px;
+        height: 500px;
+        background-color: gray;
+        border: 1px solid greenyellow;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .display{
+        background-color: black;
+        width: 295px;
+        height: 70px;
+        font-size: 2.5rem;
+    }
+    .btn-styles{
+        width: 65px;
+        height: 65px;
+        background-color: black;
+        color: white;
+        border: 2px solid greenyellow;
+        border-radius: 5px;
+    }
+    .btn-calc-styles{
+        width: 65px;
+        height: 65px;
+        background-color: greenyellow;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .btn-equals-styles{
+        width: 145px;
+        height: 65px;
+        background-color: greenyellow;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
